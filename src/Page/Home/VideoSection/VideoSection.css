@@ -1,0 +1,13 @@
+.video-box{
+    position: relative;
+}
+.video-box::before{
+    position: absolute;
+    content:"";
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:#262626a2;
+    overflow:hidden;
+}

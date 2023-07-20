@@ -1,0 +1,29 @@
+.sub-title{
+    position: relative;
+}
+.sub-title::before{
+    position: absolute;
+    content:"";
+    width:20%;
+    height:6px;
+    bottom:-12px;
+    left:40%;
+    background-color:#fff;
+}
+
+.slick-dots{
+    position: absolute;
+    bottom:40px;
+}
+.slick-dots li button{
+    width:20px;
+    height:20px;
+    border:1px solid #fff;
+    border-radius:50%;
+}
+.slick-dots li button::before{
+    color:#fff !important;
+    font-size:10px !important;
+    text-align:center !important;
+    top:1px;
+}

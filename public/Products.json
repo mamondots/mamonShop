@@ -1,0 +1,63 @@
+[
+    {
+      "image1": "https://i.ibb.co/B2W74cG/pampero.jpg",
+      "image2": "https://i.ibb.co/NTTLWp9/pampero2-500x650.jpg",
+      "title": "ELEVATE HOODIE",
+      "rating": 4.5,
+      "price": 29.99,
+      "category": "Women",
+      "tag": "T-Shirts",
+      "description": "This is a description of product 1."
+    },
+    {
+      "image1": "https://i.ibb.co/W6FwrzS/never1-500x650.jpg",
+      "image2": "https://i.ibb.co/bbkMbjp/never2-500x650.jpg",
+      "title": "BELLFIELD HOOK",
+      "rating": 3.2,
+      "price": 70.19,
+      "category": "Women",
+      "tag": "Sweaters",
+      "description": "This is a description of product 2."
+    },
+    {
+      "image1": "https://i.ibb.co/Wty1JQm/cornell1.jpg",
+      "image2": "https://i.ibb.co/NxzpbTB/cornell2-500x650.jpg",
+      "title": "PAMPERO HOOK",
+      "rating": 4.9,
+      "price": 25.99,
+      "category": "man",
+      "tag": "jakets",
+      "description": "This is a description of product 3."
+    },
+    {
+      "image1": "https://i.ibb.co/bsYpzhs/feather1-1-500x650.jpg",
+      "image2": "https://i.ibb.co/tD3qMF5/feather2-500x650.jpg",
+      "title": "NEVER SAY NEVER",
+      "rating": 2.5,
+      "price": 39.99,
+      "category": "Women",
+      "tag": "Jumpers",
+      "description": "This is a description of product 4."
+    },
+    {
+      "image1": "https://i.ibb.co/Fhn5Vvv/elevate01-500x650.jpg",
+      "image2": "https://i.ibb.co/wBXsx08/elevate03-500x650.jpg",
+      "title": "POCKET TEE",
+      "rating": 4.2,
+      "price": 49.99,
+      "category": "Women",
+      "tag": "Sweaters",
+      "description": "This is a description of product 5."
+    },
+    {
+      "image1": "https://i.ibb.co/HBtSpzN/pocket-tee1-500x650.jpg",
+      "image2": "https://i.ibb.co/NCZSQPW/pocket-tee2-500x650.jpg",
+      "title": "FEATHER TEE",
+      "rating": 3.8,
+      "price": 79.99,
+      "category": "Women",
+      "tag": "T-Shirts",
+      "description": "This is a description of product 6."
+    }
+  ]
+  
