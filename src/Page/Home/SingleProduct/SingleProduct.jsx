@@ -11,7 +11,7 @@ const SingleProduct = () => {
     const {id} = useParams()
     const [products, setProducts] = useState([])
     useEffect(() =>{
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://adrenelin-server-site.vercel.app/products/${id}`)
         .then(res => res.json())
         .then(data =>{
             setProducts(data)

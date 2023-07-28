@@ -3,7 +3,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const AddProduct = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/products', {
+        fetch('https://adrenelin-server-site.vercel.app/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

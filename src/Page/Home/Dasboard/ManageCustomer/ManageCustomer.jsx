@@ -6,13 +6,13 @@ const ManageCustomer = () => {
     const { refetch, data: users = [] } = useQuery({
         queryKey: ["users"],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/users')
+            const res = await fetch('https://adrenelin-server-site.vercel.app/users')
             return res.json()
         }
     })
 
     const handleMakeAdmin = person => {
-        fetch(`http://localhost:5000/users/admin/${person._id}`, {
+        fetch(`https://adrenelin-server-site.vercel.app/users/admin/${person._id}`, {
             method: 'PATCH'
         })
             .then(res => res.json())

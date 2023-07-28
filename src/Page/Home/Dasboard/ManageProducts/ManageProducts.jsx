@@ -6,14 +6,14 @@ const ManageProducts = () => {
     const { refetch, data: products = [] } = useQuery({
         queryKey: ["product"],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/products')
+            const res = await fetch('https://adrenelin-server-site.vercel.app/products')
             return res.json()
         }
     })
 
     const handleDelete = product =>{
 
-        fetch(`http://localhost:5000/products/${product._id}`,{
+        fetch(`https://adrenelin-server-site.vercel.app/products/${product._id}`,{
             method:'DELETE'
         })
         .then(res => res.json())

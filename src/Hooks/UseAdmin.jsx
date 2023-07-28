@@ -8,7 +8,7 @@ const UseAdmin = () => {
    const {refetch, data:isAdmin,isLoading } =useQuery({
         queryKey:['isAdmin',user?.email],
         queryFn:async () => {
-            const res = await fetch(`http://localhost:5000/users/admin/${user?.email}`)
+            const res = await fetch(`https://adrenelin-server-site.vercel.app/users/admin/${user?.email}`)
             return res.data.admin
         }
    })

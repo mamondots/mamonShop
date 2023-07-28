@@ -6,7 +6,7 @@ const UpadtedProduct = () => {
     const {id} = useParams()
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch(`http://localhost:5000/products/${id}`,{
+        fetch(`https://adrenelin-server-site.vercel.app/products/${id}`,{
             method:"PATCH",
             headers:{
                 'content-type': 'application/json'

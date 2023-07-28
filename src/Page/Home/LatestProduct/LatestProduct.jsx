@@ -6,7 +6,7 @@ import LatesProductDetails from "./LatesProductDetails/LatesProductDetails";
 const LatestProduct = () => {
     const [products, setProducts] = useState([])
     useEffect(() =>{
-            fetch('http://localhost:5000/products')
+            fetch('https://adrenelin-server-site.vercel.app/products')
             .then(res => res.json())
             .then(data =>{
                 setProducts(data)

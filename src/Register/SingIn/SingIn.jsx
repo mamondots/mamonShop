@@ -26,7 +26,7 @@ const SingIn = () => {
             const loggedUser = result.user
             console.log(loggedUser)
             const saveUser = {name:loggedUser.displayName, image:loggedUser.photoURL, email:loggedUser.email}
-            fetch('http://localhost:5000/users',{
+            fetch('https://adrenelin-server-site.vercel.app/users',{
                 method:'POST',
                 headers:{
                     'content-type':'application/json'
