@@ -1,5 +1,6 @@
 import './VideoSection.css'
 import video from '../../../assets/video/video01.mp4'
+import { Link } from 'react-router-dom';
 
 const VideoSection = () => {
     return (
@@ -13,7 +14,9 @@ const VideoSection = () => {
                      <h2 className='lg:text-4xl md:text-4xl sm:text-4xl text-xl font-bold'>Feel the MamonShops.!</h2>
                      <p className='font-medium py-2'>Hit the waves with our latest range of clothing</p>
                      <div className=''>
+                     <Link to='/productsection'>
                      <button className='px-6 py-2 mt-4 border-[2px] border-[#ffffffa1] hover:border-[#fff] duration-300 text-white'>VIEW MORE</button>
+                     </Link>
                      </div>
                 </div>
             </div>

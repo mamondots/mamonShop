@@ -1,8 +1,9 @@
 import { Rating } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
+import { Link } from 'react-router-dom';
 
 const BestSellerDetails = ({ product }) => {
-    const { image1, image2, title, rating, price, category, tag } = product
+    const { image1, image2, title, rating, price, category, tag, _id } = product
     return (
         <div>
             <div className="border relative  px-2 overflow-hidden">
@@ -20,8 +21,11 @@ const BestSellerDetails = ({ product }) => {
                         readOnly
                     />
                 </p>
+               
                 <p className='text-[#DA4600] text-lg'>${price}</p>
+                <Link to={`/singleproduct/${_id}`}>
                 <button className='px-4 py-2 border mt-2 text-[#2626267a] hover:text-[#DA4600] duration-300 hover:border-[#DA4600]'>View Now</button>
+                </Link>
             </div>
         </div>
     );

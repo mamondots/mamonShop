@@ -14,7 +14,7 @@ import reviewImg03 from '../../../assets/img/review-c.png'
 const TopRated = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('Products.json')
+        fetch('http://localhost:5000/products')
             .then(res => res.json())
             .then(data => {
                 setProducts(data)

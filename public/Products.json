@@ -7,7 +7,7 @@
       "price": 29.99,
       "category": "Women",
       "tag": "T-Shirts",
-      "description": "This is a description of product 1."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       "image1": "https://i.ibb.co/W6FwrzS/never1-500x650.jpg",
@@ -17,7 +17,7 @@
       "price": 70.19,
       "category": "Women",
       "tag": "Sweaters",
-      "description": "This is a description of product 2."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       "image1": "https://i.ibb.co/Wty1JQm/cornell1.jpg",
@@ -27,7 +27,7 @@
       "price": 25.99,
       "category": "man",
       "tag": "jakets",
-      "description": "This is a description of product 3."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       "image1": "https://i.ibb.co/bsYpzhs/feather1-1-500x650.jpg",
@@ -37,7 +37,7 @@
       "price": 39.99,
       "category": "Women",
       "tag": "Jumpers",
-      "description": "This is a description of product 4."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       "image1": "https://i.ibb.co/Fhn5Vvv/elevate01-500x650.jpg",
@@ -47,7 +47,7 @@
       "price": 49.99,
       "category": "Women",
       "tag": "Sweaters",
-      "description": "This is a description of product 5."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       "image1": "https://i.ibb.co/HBtSpzN/pocket-tee1-500x650.jpg",
@@ -57,7 +57,7 @@
       "price": 79.99,
       "category": "Women",
       "tag": "T-Shirts",
-      "description": "This is a description of product 6."
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
   ]
   
